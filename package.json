@@ -11,9 +11,5 @@
     "url": "git+https://github.com/wtfcholo/Web-Kalkis.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wtfcholo/Web-Kalkis/issues"
-  },
-  "homepage": "https://github.com/wtfcholo/Web-Kalkis#readme"
+  "license": "ISC"
 }
