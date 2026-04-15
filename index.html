@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web-kalkulator</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+        .box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: inline-block; }
+        .resultat { font-weight: bold; color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="box" id="fakultet">
+        <h2>Fakultet-kalkulator</h2>
+        <form id="fakultet-form">
+            <input name="tall" id="tall-input" placeholder="Skriv et tall" type="number" required>
+            <button type="submit">Regn ut</button>
+        </form>
+        <p>Resultatet er: <span class="resultat"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
